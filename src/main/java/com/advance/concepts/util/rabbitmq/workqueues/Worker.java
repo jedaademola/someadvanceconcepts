@@ -34,7 +34,6 @@ public class Worker {
         channel.basicConsume(TASK_QUEUE_NAME, false, deliverCallback, consumerTag -> {
         });
     }
-
     private static void doWork(String task) {
         for (char ch : task.toCharArray()) {
             if (ch == '.') {
