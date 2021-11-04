@@ -75,11 +75,11 @@ public class ExtractFieldFromJson {
 
             URL url = null;
 
-            url = new URL("https://wahbe.zendesk.com/api/v2/tickets/" + id + ".json");
+            url = new URL("https://url.com/" + id + ".json");
 
             URLConnection con = url.openConnection();
 
-            String username = "varulgnanajothi@deloitte.com";
+            String username = "myusername";
             String password = "Dec@122018";
 
             BASE64Encoder enc = new sun.misc.BASE64Encoder();
